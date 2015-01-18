@@ -1,0 +1,706 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: collaboration\n"
+"Report-Msgid-Bugs-To: translations@owncloud.org\n"
+"POT-Creation-Date: 2014-04-15 19:41+0530\n"
+"PO-Revision-Date: 2015-01-18 19:52+0100\n"
+"Last-Translator: Alexander Rogling <alexander@billigwebbplats.se>\n"
+"Language-Team: \n"
+"Language: sv_SE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.3\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: add_skills.php:18 submit_change_project.php:18 submit_change_task.php:18
+#: submit_new_notification.php:15 submit_new_project.php:18
+#: submit_new_task.php:18
+msgid "Success"
+msgstr "Lyckades"
+
+#: add_skills.php:19
+msgid "Skills are successfully added."
+msgstr "Färdigheter lagts till."
+
+#: add_skills.php:23 submit_change_project.php:23 submit_change_task.php:23
+#: submit_new_project.php:23 submit_new_task.php:25
+msgid "Failed"
+msgstr "Misslyckades"
+
+#: add_skills.php:24
+msgid "Unable to add skills. Please try again later."
+msgstr "Det går inte att lägga till färdigheter. Försök igen senare."
+
+#: ajax/create_comment.php:36 ajax/edit_comment.php:26
+#: ajax/load_project_details.php:57 ajax/load_project_details.php:62
+#: templates/comment.php:26 templates/comment.php:77 templates/projects.php:78
+#: templates/projects.php:85
+#, php-format
+msgid "On %s at %s"
+msgstr "På %s hos %s"
+
+#: ajax/create_comment.php:40 ajax/load_project_details.php:48
+#: ajax/load_tasks.php:54 templates/comment.php:33 templates/comment.php:85
+#: templates/comment.php:115 templates/comment.php:132
+#: templates/project_details.php:135 templates/projects.php:64
+#: templates/task_details.php:128 templates/tasks.php:155
+msgid "Edit"
+msgstr "Redigera"
+
+#: ajax/create_comment.php:44 templates/comment.php:39
+#: templates/comment.php:91 templates/update_project.php:133
+msgid "Delete"
+msgstr "Radera"
+
+#: ajax/load_posts.php:50 templates/dashboard.php:54
+msgid "Comments"
+msgstr "Kommentarer"
+
+#: ajax/load_posts.php:57 templates/dashboard.php:65
+#, php-format
+msgid "Project: %s"
+msgstr "Projekt: %s"
+
+#: ajax/load_posts.php:61 templates/dashboard.php:73
+#, php-format
+msgid "On %s at %s by %s"
+msgstr "På %s för %s av %s"
+
+#: ajax/load_tasks.php:49 templates/projects.php:55 templates/tasks.php:144
+msgid "View details"
+msgstr "Visa detaljer"
+
+#: ajax/load_tasks.php:61 templates/tasks.php:182
+#, php-format
+msgid "Status: %s"
+msgstr "Status: %s"
+
+#: ajax/load_tasks.php:65 templates/tasks.php:189
+#, php-format
+msgid "Deadline: %s"
+msgstr "Förfalotid: %s"
+
+#: appinfo/app.php:28
+msgid "Collaboration"
+msgstr "Sammarbete"
+
+#: js/comment.js:27
+msgid "Edit Post"
+msgstr "Ändra Post"
+
+#: js/comment.js:45
+msgid "Edit Comment"
+msgstr "Ändra kommentar"
+
+#: js/comment.js:124
+msgid "Post title should match the requested format"
+msgstr "Post title bör matcha förfrågans format"
+
+#: js/comment.js:128
+msgid "Post content cannot be empty"
+msgstr "Innehållet i posten kan inte vara tom"
+
+#: js/comment.js:180 js/comment.js:296
+msgid "Comment cannot be empty"
+msgstr "Kommentar kan inte vara tom"
+
+#: js/dashboard.js:26 js/notify.js:24 js/projects.js:27 js/report.js:9
+#: js/tasks.js:24 js/tasks.js:30 js/update_task.js:46
+msgid "No matches found!"
+msgstr "Ingen matchning hittades!"
+
+#: js/notify.js:32
+msgid "Do not notify anybody"
+msgstr "Notifiera ingen"
+
+#: js/notify.js:33
+msgid "Notify only to the members specified below"
+msgstr "Notifiera medlemmarna specificerade nedan"
+
+#: js/notify.js:38
+msgid "Select all"
+msgstr "Välj alla"
+
+#: js/notify.js:39
+msgid "Select none"
+msgstr "Välj ingen"
+
+#: js/report.js:136 templates/report.php:34
+msgid "Kindly select project and report type to generate the report"
+msgstr "Var vänligen välj projekt och raports typ för generera rapporten"
+
+#: js/report.js:162
+msgid "No tasks available in this project"
+msgstr "Inga uppgifter finns i detta projekt"
+
+#: js/report.js:199
+msgid "task(s)"
+msgstr "uppgift(er)"
+
+#: js/report.js:203
+msgid "Total number of tasks: "
+msgstr "Total antal av uppgifter:"
+
+#: js/report.js:218 templates/tasks.php:45
+msgid "Cancelled"
+msgstr "Avbruten"
+
+#: js/report.js:221 templates/tasks.php:53
+msgid "Completed"
+msgstr "Färdig"
+
+#: js/report.js:224 templates/tasks.php:61
+msgid "Held"
+msgstr "Hållen"
+
+#: js/report.js:227 templates/tasks.php:37
+msgid "In Progress"
+msgstr "Pågående"
+
+#: js/report.js:230 templates/tasks.php:69
+msgid "Unassigned"
+msgstr "Otilldelad"
+
+#: js/report.js:233 templates/tasks.php:77
+msgid "Verified"
+msgstr "Verifierad"
+
+#: js/report.js:349
+msgid "Number of verified tasks: "
+msgstr "Antal av verifierade uppgifter:"
+
+#: js/report.js:349
+msgid "Number of pending tasks: "
+msgstr "Antal av väntande uppgifter:"
+
+#: js/report.js:355
+msgid "Progressed"
+msgstr "Frammsteg"
+
+#: js/report.js:355
+msgid "To progress"
+msgstr "Totala framstegen"
+
+#: js/report.js:355
+msgid "Crossed deadline"
+msgstr "Korsade tidsfrist"
+
+#: js/report.js:429
+msgid ""
+"Number of tasks carried out by each member (working on this project) is "
+"presented below"
+msgstr ""
+"Antal uppgifter som utförs av varje medlem (arbetar med detta projekt) "
+"presenteras nedan"
+
+#: js/skillset.js:41 templates/skillset.php:13
+#: templates/skillset_details.php:25
+msgid "Skill"
+msgstr "Skicklighet"
+
+#: js/skillset.js:45 lib/skillset.php:12
+msgid "Beginner"
+msgstr "Nybörjare"
+
+#: js/skillset.js:46 lib/skillset.php:15
+msgid "Intermediate"
+msgstr "Genomsnittlig"
+
+#: js/skillset.js:47 lib/skillset.php:18
+msgid "Expert"
+msgstr "Expert"
+
+#: js/skillset.js:57 js/skillset.js:102
+msgid "Add Skill"
+msgstr "Lägg till skicklighet"
+
+#: js/tasks.js:50 templates/update_task.php:174
+msgid "Reason"
+msgstr "Orsak"
+
+#: js/update_project.js:63
+msgid "You cannot make changes on a completed project"
+msgstr "Du kan inte göra ändringar i ett färdigt projekt"
+
+#: js/update_project.js:86
+msgid "Username"
+msgstr "Användarnamn"
+
+#: js/update_project.js:89 templates/project_details.php:108
+msgid "Role"
+msgstr "Roll"
+
+#: js/update_project.js:92
+msgid "Email"
+msgstr "Email"
+
+#: js/update_project.js:95
+msgid "Mobile"
+msgstr "Mobil"
+
+#: js/update_project.js:102 js/update_project.js:149
+#: templates/update_project.php:148
+msgid "Add Member"
+msgstr "Läggtill medlem"
+
+#: js/update_project.js:173 js/update_project.js:201
+msgid "Another project with this title already exists."
+msgstr "Annat projekt med denna titel existerar redan."
+
+#: js/update_project.js:243
+msgid ""
+"Project with pending tasks cannot be completed. See report for more details"
+msgstr ""
+"Projekt med pågående uppdrag kan inte slutföras. Se rapporten för mer "
+"information"
+
+#: js/update_task.js:63
+msgid "You cannot make changes on a cancelled task."
+msgstr "Du kan inte göra ändringar på en inställd uppgift."
+
+#: js/update_task.js:64
+msgid "You cannot make changes on a verified task."
+msgstr "Du kan inte göra ändringar på en verifierad uppgift."
+
+#: lib/tasks.php:12 templates/update_task.php:115
+msgid "Very High"
+msgstr "Mycket hög"
+
+#: lib/tasks.php:14 templates/update_task.php:116
+msgid "High"
+msgstr "Hög"
+
+#: lib/tasks.php:16 templates/update_task.php:117
+msgid "Normal"
+msgstr "Normal"
+
+#: lib/tasks.php:18 templates/update_task.php:118
+msgid "Low"
+msgstr "Låg"
+
+#: lib/tasks.php:20 templates/update_task.php:119
+msgid "Very Low"
+msgstr "Mycket låg"
+
+#: lib/tasks.php:141 templates/comment.php:123 templates/comment.php:138
+msgid "Cancel"
+msgstr "Avbryt"
+
+#: lib/tasks.php:144
+msgid "Finish"
+msgstr "Slutför"
+
+#: lib/tasks.php:147
+msgid "Hold"
+msgstr "väntetid"
+
+#: lib/tasks.php:150
+msgid "Assign"
+msgstr "Tilldela"
+
+#: lib/tasks.php:153
+msgid "Resume"
+msgstr "Återta"
+
+#: submit_change_project.php:19
+#, php-format
+msgid "Project '%s' has been updated successfully."
+msgstr "Projekt '%s' har lyckades bli uppdaterad."
+
+#: submit_change_project.php:24
+#, php-format
+msgid "Project '%s' cannot be updated. Kindly try after some time."
+msgstr ""
+"Projekt '%s' kunde inte bli uppdaterad. Var vänligen försök igen senare."
+
+#: submit_change_task.php:19
+#, php-format
+msgid "Task '%s' has been successfully updated."
+msgstr "Uppgift '%s' lyckades bli uppdaterad."
+
+#: submit_change_task.php:24
+#, php-format
+msgid "Task '%s' cannot be updated. Kindly try after some time."
+msgstr ""
+"Uppgift '%s' kunde inte bli uppdaterad, var vänligen försök igen senare."
+
+#: submit_new_notification.php:16
+#, php-format
+msgid "Notification '%s' has been posted successfully."
+msgstr "Notifiering '%s' har blivit bokförd korrekt."
+
+#: submit_new_project.php:19
+#, php-format
+msgid "Project '%s' has been created successfully."
+msgstr "Projekt '%s' lyckades bli skapad."
+
+#: submit_new_project.php:24
+#, php-format
+msgid "Project '%s' cannot be created. Kindly try after some time."
+msgstr "Projekt '%s' kan inte bli skapad. Var vänligen försök igen senare."
+
+#: submit_new_task.php:19
+#, php-format
+msgid "Task '%s' has been created successfully."
+msgstr "Uppgift '%s' har lyckas bli skapad."
+
+#: submit_new_task.php:26
+#, php-format
+msgid "Task '%s' cannot be created. Kindly try after some time."
+msgstr "Uppgift '%s' kan inte bli skapad. Var vänligen försök igen senare."
+
+#: submit_notify.php:15 submit_skillset.php:16 submit_update_project.php:35
+#: submit_update_task.php:45 submit_update_task.php:76
+#: templates/event_edit_form.php:55 templates/event_form.php:46
+msgid "Loading..."
+msgstr "Laddar..."
+
+#: submit_notify.php:16
+#, php-format
+msgid "Creating notification '%s'. Please be patient."
+msgstr "Skapa notifiering '%s'. Var vänligen vänta"
+
+#: submit_skillset.php:17
+msgid "Adding skills. Please be patient."
+msgstr "Lägger till skicklighet(er). Var vänligen vänta."
+
+#: submit_update_project.php:36
+#, php-format
+msgid "Updating project '%s'. Please be patient."
+msgstr "Uppdaterar projekt '%s'. Var vänligen vänta."
+
+#: templates/comment.php:47 templates/comment.php:53
+msgid "View Details"
+msgstr "Visa detaljer"
+
+#: templates/comment.php:104
+msgid "Write new comment: "
+msgstr "Kommentar kan inte vara tom"
+
+#: templates/comment.php:108
+msgid "Submit"
+msgstr "Framlägga"
+
+#: templates/comment.php:117
+msgid "Updated post title"
+msgstr "Uppdatera post titel"
+
+#: templates/comment.php:119
+msgid "Updated post content"
+msgstr "Uppdatera post innehåll"
+
+#: templates/comment.php:122 templates/comment.php:137
+#: templates/skillset.php:35 update_project.php:23 update_task.php:28
+msgid "Update"
+msgstr "Uppdatera"
+
+#: templates/comment.php:134
+msgid "Updated comment"
+msgstr "Uppdatera kommentar"
+
+#: templates/dashboard.php:7 templates/tabs.php:8
+msgid "Dashboard"
+msgstr "Instrumentbräda"
+
+#: templates/dashboard.php:16 templates/tasks.php:84
+msgid "Filter by project:"
+msgstr "Filtrera projekt av:"
+
+#: templates/dashboard.php:18 templates/projects.php:25 templates/tasks.php:28
+#: templates/tasks.php:86
+msgid "ALL"
+msgstr "ALLA"
+
+#: templates/dashboard.php:34
+msgid "Sorry, no post is available to display."
+msgstr "Ledsen, ingen post finns att visa."
+
+#: templates/event_edit_form.php:55 templates/event_form.php:46
+#, php-format
+msgid "Creating task '%s'. Please be patient."
+msgstr "Skapar uppgift '%s'. Var vänlig vänta."
+
+#: templates/event_edit_form.php:60 templates/event_form.php:50
+msgid "Access Denied"
+msgstr "Tillgång Nekad"
+
+#: templates/event_edit_form.php:60 templates/event_form.php:50
+#, php-format
+msgid "Task '%s' cannot be created."
+msgstr "Uppgift '%s' kan inte bli skapad."
+
+#: templates/notify.php:7 templates/notify.php:77 templates/tabs.php:72
+msgid "Notify"
+msgstr "Notifiera"
+
+#: templates/notify.php:15
+msgid ""
+"Sorry, you are not into any project yet. You can notify only after joining a "
+"project."
+msgstr ""
+"Tyvärr, du är inte i något projekt ännu. Du kan endast anmäla efter att ha "
+"gått ett projekt."
+
+#: templates/notify.php:26 templates/task_details.php:13
+#: templates/update_task.php:35
+msgid "Project"
+msgstr "Projekt"
+
+#: templates/notify.php:49
+msgid "Notification Subject"
+msgstr "Notifierings ämne"
+
+#: templates/notify.php:63
+msgid "Notification Message"
+msgstr "Notifierings Meddelande"
+
+#: templates/notify.php:86
+msgid "Notify all"
+msgstr "Notifiera alla"
+
+#: templates/notify.php:101
+msgid "Send"
+msgstr "Skicka"
+
+#: templates/project_details.php:7
+msgid "Project Details"
+msgstr "Projekt Detaljer"
+
+#: templates/project_details.php:13 templates/update_project.php:31
+msgid "Project Title"
+msgstr "Projekt Titel"
+
+#: templates/project_details.php:29 templates/update_project.php:46
+msgid "Description"
+msgstr "Beskrivning"
+
+#: templates/project_details.php:43 templates/task_details.php:70
+#: templates/update_project.php:77 templates/update_task.php:193
+msgid "Deadline"
+msgstr "Tidsfrist"
+
+#: templates/project_details.php:59 templates/task_details.php:109
+#: templates/update_task.php:126
+msgid "Status"
+msgstr "Status"
+
+#: templates/project_details.php:70
+#, php-format
+msgid "Completed on %s"
+msgstr "Färdigställd på %s"
+
+#: templates/project_details.php:78
+msgid "In progress"
+msgstr "Pågående"
+
+#: templates/project_details.php:86 templates/update_project.php:100
+msgid "Members"
+msgstr "Medlemmar"
+
+#: templates/project_details.php:109
+msgid "Member(s)"
+msgstr "Medlem(ar)"
+
+#: templates/projects.php:7 templates/tabs.php:41
+msgid "Projects"
+msgstr "Projekt"
+
+#: templates/projects.php:13
+msgid "Sorry, no project is available yet to display."
+msgstr "Ledsen, inget projekt finns att visa än."
+
+#: templates/projects.php:23
+msgid "Search project:"
+msgstr "Sök projekt:"
+
+#: templates/report.php:6
+msgid "Project Report"
+msgstr "Projekt Rapport"
+
+#: templates/report.php:16
+msgid "Select Project"
+msgstr "Välj Projekt"
+
+#: templates/report.php:26
+msgid "Select Report Type"
+msgstr "Välj Rapporterings Typ"
+
+#: templates/report.php:27
+msgid "Contribution Report"
+msgstr "Bidragsrapport"
+
+#: templates/report.php:28
+msgid "Project Timeline"
+msgstr "Projekt Tidslinje"
+
+#: templates/report.php:29
+msgid "Task Status Report"
+msgstr "Aktivitetsstatus Rapport"
+
+#: templates/skillset.php:7 templates/tabs.php:80
+msgid "My Skillset"
+msgstr "Min skicklighet"
+
+#: templates/skillset.php:14 templates/skillset_details.php:29
+msgid "Expertise"
+msgstr "Skicklighet"
+
+#: templates/skillset.php:15 templates/skillset_details.php:33
+msgid "Experience"
+msgstr "Erfarenhet"
+
+#: templates/skillset.php:15
+msgid "(in years)"
+msgstr "(i antal år)"
+
+#: templates/skillset.php:29
+msgid "Add a skill"
+msgstr "Lägg till skicklighet"
+
+#: templates/skillset_details.php:7
+msgid "Skillset"
+msgstr "Skicklighet"
+
+#: templates/skillset_details.php:13
+msgid "Member"
+msgstr "Medlem"
+
+#: templates/skillset_details.php:17
+#, php-format
+msgid "Number of tasks in project<br />'%s'"
+msgstr "Antal uppgifter i projekt <br />'%s'"
+
+#: templates/skillset_details.php:21
+msgid "Number of tasks in all projects"
+msgstr "Antal uppgifter i alla projekt"
+
+#: templates/skillset_details.php:48
+msgid "Skills yet to be added by member"
+msgstr "Skicklighet återstår att läggas till av medlem"
+
+#: templates/skillset_details.php:56
+msgid "year(s)"
+msgstr "år"
+
+#: templates/tabs.php:21 update_project.php:30
+msgid "Create Project"
+msgstr "Skapa Projekt"
+
+#: templates/tabs.php:29 update_task.php:35
+msgid "Create Task"
+msgstr "Skapa Uppgift"
+
+#: templates/tabs.php:49 templates/tasks.php:7
+msgid "Tasks"
+msgstr "Uppgifter"
+
+#: templates/tabs.php:61
+msgid "Report"
+msgstr "Rapportera"
+
+#: templates/task_details.php:7
+msgid "Task details"
+msgstr "Uppgifts detaljer"
+
+#: templates/task_details.php:28 templates/update_task.php:78
+msgid "Task Title"
+msgstr "Uppgifts Titel"
+
+#: templates/task_details.php:42 templates/update_task.php:92
+msgid "Task Description"
+msgstr "Uppgifts beskrivning"
+
+#: templates/task_details.php:56 templates/update_task.php:106
+msgid "Priority"
+msgstr "Prioritet"
+
+#: templates/task_details.php:84
+msgid "Task Status"
+msgstr "Uppgifts Status"
+
+#: templates/task_details.php:103
+msgid "Task History:"
+msgstr "Uppgifts Historik:"
+
+#: templates/task_details.php:110
+msgid "Time"
+msgstr "Tid"
+
+#: templates/task_details.php:111
+msgid "Comment"
+msgstr "Kommentar"
+
+#: templates/tasks.php:18
+msgid "Filter by status:"
+msgstr "Filtrera igenom status:"
+
+#: templates/tasks.php:100
+msgid "Show tasks:&nbsp;"
+msgstr "Visa uppgift:$nbsp;"
+
+#: templates/tasks.php:104
+msgid "created by me"
+msgstr "skapad av mig"
+
+#: templates/tasks.php:110
+msgid "assigned to me"
+msgstr "tilldelats mig"
+
+#: templates/tasks.php:124
+msgid "Sorry, no task is available to display."
+msgstr "Ledsen, ingen uppgift finns att visa."
+
+#: templates/tasks.php:201
+msgid "Kindly give your reason in passive voice"
+msgstr "Vänligen ge din anledning i passiv form"
+
+#: templates/update_project.php:62
+msgid "Creator"
+msgstr "Skapare"
+
+#: templates/update_project.php:90
+msgid "Completed?"
+msgstr "Färdig?"
+
+#: templates/update_project.php:144
+msgid ""
+"(If user does not exist in owncloud, user will be automatically created with "
+"password being the same as username in lower case)"
+msgstr ""
+"(Om användaren inte existerar i owncloud , användaren skapas automatiskt med "
+"lösenord är samma som användarnamn gemener)"
+
+#: templates/update_project.php:154
+msgid "Inform member(s) via mail"
+msgstr "Informera medlem(ar) via mail"
+
+#: templates/update_task.php:15
+msgid ""
+"Sorry, you are not into any project yet. You can create tasks only after "
+"joining a project."
+msgstr ""
+"Tyvärr, du är inte i något projekt ännu . Du kan skapa uppgifter endast "
+"efter att ha gått ett projekt."
+
+#: templates/update_task.php:165
+msgid "View availablility & skillset"
+msgstr "Visa tillgänglighet & kunskaper"
+
+#: templates/update_task.php:167
+msgid "Inform member via mail"
+msgstr "Informera medlem via mail"
+
+#: update_project.php:22
+msgid "Update Project"
+msgstr "Uppdatera Projekt"
+
+#: update_project.php:31 update_task.php:36
+msgid "Create"
+msgstr "Skapa"
+
+#: update_task.php:27
+msgid "Update Task"
+msgstr "Uppdatera Uppgift"
